@@ -25,7 +25,7 @@ console.log(words.split(''));
 // 3.2
 const palabraDesordenada = cadena => {
     const PalabraArreglo = cadena.split("");
-    PalabraArreglo.sort();
+    PalabraArreglo.reverse();
     const cadenaOrdenada = PalabraArreglo.join("");
     return cadenaOrdenada;
 };
